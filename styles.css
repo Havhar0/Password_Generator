@@ -7,6 +7,132 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.container {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-app{
+    margin-top: 100px;
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+}
+
+
+h1 {
+    color: #4ADF86;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+.white-header{
+    color: white;
+}
+
+h3 {
+
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+#generator-button {
+
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    color: white;
+    background: #10B981;
+    width: 191px;
+    height: 42px;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+#generator-button:active {
+    background: #13cd8f;
+}
+
+.line {
+
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    width: 446px;
+    height: 0px;
+    border: 1px solid #2F3E53;
+}
+
+
+#password1-button {
+
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    width: 211px;
+    height: 39px;
+    color: #10B981;
+    background: #273549;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    clear: left;
+    font-style: 'Open Sans Light';
+}
+
+#password1-button:active {
+    background: #32445d;
+}
+
+#password2-button {
+
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    width: 211px;
+    height: 39px;
+    color: #10B981;
+    background: #273549;
+    border-radius: 6px;
+    border: none; 
+}
+
+#password2-button:active {
+    background: #32445d;
+}
+
+
+
+
+/*
+
+OLD STYLE
+
+@import url('http://fonts.cdnfonts.com/css/open-sans');
+
+body {
+    background-color: #1C1C1C;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Light', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 
 
 h1 {
@@ -111,3 +237,5 @@ h3 {
     top: 361px;
     border: 1px solid #2F3E53;
 }
+
+*/
